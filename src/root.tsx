@@ -13,7 +13,7 @@ import {
   Title,
   Link,
 } from "solid-start";
-import { trpc, queryClient } from "~/utils/trpc";
+import { trpc, makeQueryClient } from "~/utils/trpc";
 
 export default function Root() {
   return (
@@ -27,7 +27,7 @@ export default function Root() {
         <Link rel="icon" href="/favicon.ico" />
       </Head>
       <Body>
-        <trpc.Provider queryClient={queryClient}>
+        <trpc.Provider queryClient={makeQueryClient()}>
           <Suspense>
             <ErrorBoundary>
               <Routes>

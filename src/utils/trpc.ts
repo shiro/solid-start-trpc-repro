@@ -23,7 +23,7 @@ export const trpc = createTRPCSolidStart<IAppRouter>({
   },
 });
 
-export const queryClient = new QueryClient({
+export const makeQueryClient = () => new QueryClient({
     defaultOptions: {
         queries: {
             suspense: true,
