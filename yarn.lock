@@ -1412,17 +1412,17 @@
   resolved "https://registry.npmjs.org/@solidjs/router/-/router-0.8.3.tgz#4623cda699c4f47b3520222529b72e3cb77ec415"
   integrity sha512-oJuqQo10rVTiQYhe1qXIG1NyZIZ2YOwHnlLc8Xx+g/iJhFCJo1saLOIrD/Dkh2fpIaIny5ZMkz1cYYqoTYGJbg==
 
-"@tanstack/query-core@5.0.0-rc.12":
-  version "5.0.0-rc.12"
-  resolved "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.0.0-rc.12.tgz#0748043960b749888d6762bf6ed795ca7d761153"
-  integrity sha512-gEgRIkFMjxhu+rbomSxAYTA+aPaPrLffJwFCpfd/AqJ8PTlnredJnFfFskCbR6oZo/1XEuDORFW9c6b4gOnEKQ==
+"@tanstack/query-core@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.0.0.tgz#b37a50bb3a4f54336b6131db00b72cd29e79b480"
+  integrity sha512-Y1BpiA6BblJd/UlVqxEVeAG7IACn568YJuTTItAiecBI7En+33g780kg+/8lhgl+BzcUPN7o+NjBrSRGJoemyQ==
 
-"@tanstack/solid-query@5.0.0-rc.12":
-  version "5.0.0-rc.12"
-  resolved "https://registry.npmjs.org/@tanstack/solid-query/-/solid-query-5.0.0-rc.12.tgz#399d966727b6e1ac2a141453beff2e27a4e04b2b"
-  integrity sha512-pVa5GmTouqQDdOl9LNbk40hQgHEVC9VyTVi3lLPUWZmaYsf49FiSJHDezjR7buCpb6FthzUKgil5RMuT18A5uA==
+"@tanstack/solid-query@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/@tanstack/solid-query/-/solid-query-5.0.0.tgz#e8e9989413bc50f13ee648d649388fb5409b714f"
+  integrity sha512-XwSKUOeoxlLbA/yvgw3EoJ4Zg8BCRjIv+MXKHw6EVJWLW9eA3BQCBwuZ1A9yuQNyt1Ms9k1wuUGg9gXwc5Qiag==
   dependencies:
-    "@tanstack/query-core" "5.0.0-rc.12"
+    "@tanstack/query-core" "5.0.0"
     solid-js "^1.7.8"
 
 "@trpc/client@10.40.0":

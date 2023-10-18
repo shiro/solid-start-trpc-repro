@@ -26,7 +26,7 @@
     "undici": "5.20.0",
     "zod": "^3.20.6",
     "solid-trpc": "0.1.0-sssr.8",
-    "@tanstack/solid-query": "5.0.0-rc.12",
+    "@tanstack/solid-query": "5.0.0",
     "solid-start-trpc": "0.0.16",
     "@trpc/client": "10.40.0",
     "@trpc/server": "10.40.0"
